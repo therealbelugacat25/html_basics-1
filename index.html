@@ -3,28 +3,34 @@
         <title>HTML basics</title>
         <link rel="stylesheet" type="text/css" href="index.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <script src="index.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body> 
+        <script>
+            AOS.init();
+        </script>
         <nav>
-            <a href="#">Home</a>
+            <a href="#top">Home</a>
             <a href="https://www.GitHub.com">GitHub</a>
             <a href="https://www.abcya.com">ABCYA</a>
         </nav>
         <section id="top-container">
-            <img id="logo" src="./img/BMRS_logo.png" />
+            <img data-aos="fade-right" id="logo" src="./img/BMRS_logo.png" />
             <div>
-                <h1 id="name">Mr. Spaulding</h1>
-                <h3 id="top-text">Age: 26</h3>
-                <p id="top-text">I love programming and tinkering with electronic and mechanical components.
-                <p id="top-text">I also love a whole bunch of different animals!</p>
+                <h1 data-aos="fade-left" id="name">Mr. Spaulding</h1>
+                <h3 data-aos="fade-left" id="top-text">Age: 26</h3>
+                <p data-aos="fade-left" id="top-text">I love programming and tinkering with electronic and mechanical components.
+                <p data-aos="fade-left" id="top-text">I also love a whole bunch of different animals!</p>
             </div>
         </section>
         <section id="center_images-container">
-            <img id="center_images" src="./img/happy_cat.jpg" />
-            <img id="center_images" src="./img/baby_squirrel.jpg" />
-            <img id="center_images" src="./img/baby_chicken.jpg" />
-            <img id="center_images" src="./img/cute_fox.png" />
-            <img id="center_images" src="./img/happy_pug.jpg" />
+            <img data-aos="zoom-in" id="center_images" src="./img/happy_cat.jpg" />
+            <img data-aos="zoom-in" id="center_images" src="./img/baby_squirrel.jpg" />
+            <img data-aos="zoom-in" id="center_images" src="./img/baby_chicken.jpg" />
+            <img data-aos="zoom-in" id="center_images" src="./img/cute_fox.png" />
+            <img data-aos="zoom-in" id="center_images" src="./img/happy_pug.jpg" />
         </section>
         <footer>
             <p>&copy 2022 NightlyD3V</p>
