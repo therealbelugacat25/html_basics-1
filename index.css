@@ -1,0 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: coral;
+    font-family: silkscreen;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS code starts here */
+nav {
+    background-color: black;
+    padding: 25px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+}
+#top-container {
+    display: flex; 
+    align-items: center;
+    background-color: darkslategrey;
+    padding: 15px;
+    margin-bottom: 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+#logo {
+    margin: 45px;
+}
+#profile_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+#name {
+    font-size: 3rem;
+    margin: 10px;
+    color: whitesmoke;
+}
+#top-text {
+    margin: 10px;
+    font-size: 2rem;
+    color: white;
+}
+#center_images-container {
+    display: flex;
+    justify-content: center;
+}
+#center_images {
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    object-fit: cover;
+}
+footer {
+    color: white;
+    font-size: 2rem;
+    position: fixed; 
+    bottom: 0px;
+    width: 100vw;
+    background-color: darkslategrey;
+    padding: 25px;
+    margin: auto;
+    text-align: center;
+}
+/* RESPONSIVE */
+@media screen and (max-width: 1500px) {
+    body {
+      background-color: olive;
+    }
+    #center_images-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    #center_images {
+        width: 400px;
+        height: 400px;
+    }
+    #top-container {
+        flex-direction: column;    
+    }
+  }
