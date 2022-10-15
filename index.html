@@ -4,7 +4,6 @@
         <link rel="stylesheet" type="text/css" href="index.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-        <script src="index.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body> 
@@ -21,19 +20,45 @@
             <div>
                 <h1 data-aos="fade-left" id="name">Mr. Spaulding</h1>
                 <h3 data-aos="fade-left" id="top-text">Age: 26</h3>
-                <p data-aos="fade-left" id="top-text">I love programming and tinkering with electronic and mechanical components.
+                <p data-aos="fade-left" id="top-text">I love programming & tinkering with electronic/mechanical components.
                 <p data-aos="fade-left" id="top-text">I also love a whole bunch of different animals!</p>
             </div>
         </section>
         <section id="center_images-container">
-            <img data-aos="zoom-in" id="center_images" src="./img/happy_cat.jpg" />
-            <img data-aos="zoom-in" id="center_images" src="./img/baby_squirrel.jpg" />
-            <img data-aos="zoom-in" id="center_images" src="./img/baby_chicken.jpg" />
-            <img data-aos="zoom-in" id="center_images" src="./img/cute_fox.png" />
-            <img data-aos="zoom-in" id="center_images" src="./img/happy_pug.jpg" />
+            <div data-aos="zoom-in"  
+                 style="display:flex; flex-direction:column; align-items: center;"
+            >
+                <h1 style="color:white">A CAT!</h1>
+                <img name="images" id="center_images" src="./img/happy_cat.jpg" />
+            </div>
+            <div data-aos="zoom-in" 
+                 style="display:flex; flex-direction:column; align-items: center;"
+            >
+                <h1 style="color:white">A SQUIRREL!</h1>
+                <img name="images" id="center_images" src="./img/baby_squirrel.jpg" />
+            </div>
+            <div data-aos="zoom-in" 
+                 style="display:flex; flex-direction:column; align-items: center;"
+            >
+                <h1 style="color:white">A CHICK!</h1>
+                <img name="images" id="center_images" src="./img/baby_chicken.jpg" />
+            </div>
+            <div data-aos="zoom-in" 
+                 style="display:flex; flex-direction:column; align-items: center;"
+            >
+                <h1 style="color: white">A FOX!</h1>
+                <img name="images" id="center_images" src="./img/cute_fox.png" />
+            </div>
+            <div data-aos="zoom-in" 
+                 style="display:flex; flex-direction:column; align-items: center;"
+            >
+                <h1 style="color:white">A PUG!</h1>
+                <img name="images" id="center_images" src="./img/happy_pug.jpg" />
+            </div>
         </section>
         <footer>
             <p>&copy 2022 NightlyD3V</p>
         </footer>
+        <script src="index.js"></script>
     </body>
 </html>
