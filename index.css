@@ -69,13 +69,6 @@ nav a {
 #logo {
     margin: 45px;
 }
-#profile_img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 25px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-}
 #name {
     font-size: 3rem;
     margin: 10px;
@@ -104,9 +97,10 @@ footer {
     bottom: 0px;
     width: 100vw;
     background-color: darkslategrey;
-    padding: 25px;
+    padding: 10px;
     margin: auto;
-    text-align: center;
+    padding-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 /* RESPONSIVE */
 @media screen and (max-width: 1500px) {
