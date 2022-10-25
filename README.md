@@ -1,5 +1,5 @@
 # Welcome 😁
-Today you will learn the basics of HTML! <br>
+Today we will put what we've learned about HTML into practice! <br>
 HTML is a foundational building block to making your own websites<br>
 <hr>
 <h3><b>What is HTML (Hyper Text Markup Language)?</b></h3>
